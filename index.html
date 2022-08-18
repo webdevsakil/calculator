@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-blue-900 bg-opacity-60">
+    <div class="flex justify-center items-center h-screen">
+        <div class="rounded-md w-[380px] mx-auto bg-white shadow-xl py-7 px-4">
+            <form action="#" class="h-24 bg-black  text-white rounded-md border px-3  py-2 text-xl">
+                <input type="text" class="screen bg-black w-full h-full focus:outline-none overflow-hidden text-end">
+            </form>
+            <div class="grid  grid-cols-4 mt-2 text-center gap-2 calculator">
+                <button type="button" data-num="+">+</button>
+                <button type="button" data-num="-">-</button>
+                <button type="button" data-num="*">*</button>
+                <button type="button" data-num="/">/</button>
+
+                <button type="button" data-num="1">1</button>
+                <button type="button" data-num="2">2</button>
+                <button type="button" data-num="3">3</button>
+                <button type="button" data-num="4">4</button>
+                <button type="button" data-num="5">6</button>
+                <button type="button" data-num="7">7</button>
+                <button type="button" data-num="8">8</button>
+                <button type="button" data-num="9">9</button>
+                <button type="button" data-num="0">0</button>
+                <button type="button" data-action="clear" class="clear">C</button>
+                <button type="button" data-action="equal" class="col-span-2 equal">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/calculator.js"></script>
+</body>
+
+</html>
